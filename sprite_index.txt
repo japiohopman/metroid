@@ -1,0 +1,6 @@
+breed 2800
+hoog 1440
+cell 80 by 80 pixels, 
+18 rows o_ till 17_,
+35 columns 0_0 till 0_34,
+ 
