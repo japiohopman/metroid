@@ -1152,7 +1152,7 @@
     ],
     "fps": 12,
     "loop": true,
-    "role": null
+    "role": "FALL_RIGHT"
   },
   {
     "id": "anim-1769253197753",
@@ -1176,6 +1176,6 @@
     ],
     "fps": 12,
     "loop": true,
-    "role": null
+    "role": "FALL_LEFT"
   }
 ]
