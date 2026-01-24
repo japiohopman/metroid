@@ -1153,5 +1153,29 @@
     "fps": 12,
     "loop": true,
     "role": null
+  },
+  {
+    "id": "anim-1769253197753",
+    "name": "faling facing left",
+    "frames": [
+      {
+        "row": 7,
+        "col": 19,
+        "id": "7-19-1769253235501"
+      },
+      {
+        "row": 7,
+        "col": 20,
+        "id": "7-20-1769253239017"
+      },
+      {
+        "row": 7,
+        "col": 21,
+        "id": "7-21-1769253242340"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": null
   }
 ]
