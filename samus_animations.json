@@ -1197,5 +1197,24 @@
     "fps": 12,
     "loop": true,
     "role": null
+  },
+  {
+    "id": "anim-1769255740346",
+    "name": "facing left aiming up",
+    "frames": [
+      {
+        "row": 0,
+        "col": 23,
+        "id": "0-23-1769255772890"
+      },
+      {
+        "row": 0,
+        "col": 24,
+        "id": "0-24-1769255777239"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": null
   }
 ]
