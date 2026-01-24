@@ -996,7 +996,8 @@
       }
     ],
     "fps": 12,
-    "loop": true
+    "loop": true,
+    "role": "CROUCH_RIGHT"
   },
   {
     "id": "anim-1769246178993",
