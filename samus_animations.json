@@ -240,7 +240,8 @@
       }
     ],
     "fps": 12,
-    "loop": true
+    "loop": true,
+    "role": "IDLE_RIGHT"
   },
   {
     "id": "anim-1769241420200",
