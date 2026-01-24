@@ -865,5 +865,23 @@
     ],
     "fps": 12,
     "loop": true
+  },
+  {
+    "id": "anim-1769245482726",
+    "name": "knockback facing left",
+    "frames": [
+      {
+        "row": 0,
+        "col": 26,
+        "id": "0-26-1769245511596"
+      },
+      {
+        "row": 0,
+        "col": 27,
+        "id": "0-27-1769245514559"
+      }
+    ],
+    "fps": 12,
+    "loop": true
   }
 ]
