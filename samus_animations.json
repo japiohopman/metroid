@@ -1121,5 +1121,37 @@
     ],
     "fps": 12,
     "loop": true
+  },
+  {
+    "id": "anim-1769252961107",
+    "name": "New Animation 28",
+    "frames": [],
+    "fps": 12,
+    "loop": true,
+    "role": null
+  },
+  {
+    "id": "anim-1769253123465",
+    "name": "faling facing right",
+    "frames": [
+      {
+        "row": 7,
+        "col": 15,
+        "id": "7-15-1769253177482"
+      },
+      {
+        "row": 7,
+        "col": 14,
+        "id": "7-14-1769253180644"
+      },
+      {
+        "row": 7,
+        "col": 13,
+        "id": "7-13-1769253184763"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": null
   }
 ]
