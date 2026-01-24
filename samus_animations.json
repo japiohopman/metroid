@@ -1102,5 +1102,18 @@
     ],
     "fps": 12,
     "loop": true
+  },
+  {
+    "id": "anim-1769246660296",
+    "name": "in air facing left aiming down",
+    "frames": [
+      {
+        "row": 6,
+        "col": 22,
+        "id": "6-22-1769246707281"
+      }
+    ],
+    "fps": 12,
+    "loop": true
   }
 ]
