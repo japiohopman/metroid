@@ -1216,5 +1216,19 @@
     "fps": 12,
     "loop": true,
     "role": null
+  },
+  {
+    "id": "anim-1769255823661",
+    "name": "aiming up right",
+    "frames": [
+      {
+        "row": 0,
+        "col": 9,
+        "id": "0-9-1769255847959"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": null
   }
 ]
