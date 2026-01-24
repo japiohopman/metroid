@@ -1302,5 +1302,24 @@
     "fps": 12,
     "loop": true,
     "role": null
+  },
+  {
+    "id": "anim-1769256360797",
+    "name": "facing right normal jump aiming down",
+    "frames": [
+      {
+        "row": 6,
+        "col": 28,
+        "id": "6-28-1769256413962"
+      },
+      {
+        "row": 6,
+        "col": 22,
+        "id": "6-22-1769256420040"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": null
   }
 ]
