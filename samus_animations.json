@@ -155,7 +155,8 @@
       }
     ],
     "fps": 12,
-    "loop": true
+    "loop": true,
+    "role": "RUN_LEFT"
   },
   {
     "id": "anim-1769240273293",
