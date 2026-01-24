@@ -1178,5 +1178,24 @@
     "fps": 12,
     "loop": true,
     "role": "FALL_LEFT"
+  },
+  {
+    "id": "anim-1769255585948",
+    "name": "facing right aiming up",
+    "frames": [
+      {
+        "row": 0,
+        "col": 9,
+        "id": "0-9-1769255683809"
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "id": "0-10-1769255690137"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": null
   }
 ]
