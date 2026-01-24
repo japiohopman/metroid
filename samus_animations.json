@@ -68,7 +68,8 @@
       }
     ],
     "fps": 12,
-    "loop": true
+    "loop": true,
+    "role": "RUN_RIGHT"
   },
   {
     "id": "anim-3",
