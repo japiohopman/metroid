@@ -941,5 +941,28 @@
     ],
     "fps": 12,
     "loop": true
+  },
+  {
+    "id": "anim-1769245831198",
+    "name": "turn standing facing right into facing left aiming down",
+    "frames": [
+      {
+        "row": 5,
+        "col": 16,
+        "id": "5-16-1769245959636"
+      },
+      {
+        "row": 5,
+        "col": 17,
+        "id": "5-17-1769245962758"
+      },
+      {
+        "row": 5,
+        "col": 18,
+        "id": "5-18-1769245966104"
+      }
+    ],
+    "fps": 12,
+    "loop": true
   }
 ]
