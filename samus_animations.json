@@ -97,7 +97,8 @@
       }
     ],
     "fps": 10,
-    "loop": false
+    "loop": false,
+    "role": "MORPH_RIGHT"
   },
   {
     "id": "anim-1769238723774",
