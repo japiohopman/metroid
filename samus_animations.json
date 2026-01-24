@@ -967,7 +967,8 @@
       }
     ],
     "fps": 12,
-    "loop": true
+    "loop": true,
+    "role": "TURNING_RIGHT_TO_LEFT"
   },
   {
     "id": "anim-1769246073427",
