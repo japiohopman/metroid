@@ -1398,7 +1398,7 @@
     ],
     "fps": 12,
     "loop": true,
-    "role": null
+    "role": "SPIN_JUMP_RIGHT"
   },
   {
     "id": "anim-1769256746540",
@@ -1452,7 +1452,7 @@
     ],
     "fps": 12,
     "loop": true,
-    "role": null
+    "role": "SPIN_JUMP_LEFT"
   },
   {
     "id": "anim-1769256861862",
