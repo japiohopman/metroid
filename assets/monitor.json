@@ -1,0 +1,10 @@
+{
+  "id": "monitor",
+  "type": "terminal",
+  "description": "alien tech for inside the terminal monitor to complement the puzzel",
+  "tags": [
+    "generated",
+    "terminal"
+  ],
+  "createdAt": "2026-02-01T09:57:14.502Z"
+}
