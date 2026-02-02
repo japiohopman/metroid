@@ -1,1573 +1,2217 @@
 [
   {
-    "id": "anim-1",
-    "name": "Idle_saveroom_suite",
+    "id": "role-IDLE_RIGHT",
+    "name": "IDLE RIGHT",
     "frames": [
       {
         "row": 0,
-        "col": 17,
-        "id": "0-17-1769240069559"
-      }
-    ],
-    "fps": 1,
-    "loop": true
-  },
-  {
-    "id": "anim-2",
-    "name": "Running Right",
-    "frames": [
-      {
-        "row": 2,
-        "col": 6,
-        "id": "2-6-1769240094130"
-      },
-      {
-        "row": 2,
-        "col": 7,
-        "id": "2-7-1769240108208"
-      },
-      {
-        "row": 2,
-        "col": 8,
-        "id": "2-8-1769240112842"
-      },
-      {
-        "row": 2,
-        "col": 9,
-        "id": "2-9-1769240116631"
-      },
-      {
-        "row": 2,
-        "col": 10,
-        "id": "2-10-1769240119379"
-      },
-      {
-        "row": 2,
-        "col": 11,
-        "id": "2-11-1769240122011"
-      },
-      {
-        "row": 2,
         "col": 12,
-        "id": "2-12-1769240124890"
-      },
-      {
-        "row": 2,
-        "col": 13,
-        "id": "2-13-1769240128459"
-      },
-      {
-        "row": 2,
-        "col": 14,
-        "id": "2-14-1769240134038"
-      },
-      {
-        "row": 2,
-        "col": 15,
-        "id": "2-15-1769240137751"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "RUN_RIGHT"
-  },
-  {
-    "id": "anim-3",
-    "name": "Morph Ball facing right",
-    "frames": [
-      {
-        "row": 0,
-        "col": 7,
-        "id": "0-7-1769240214047"
-      },
-      {
-        "row": 0,
-        "col": 6,
-        "id": "0-6-1769240217485"
-      },
-      {
-        "row": 0,
-        "col": 5,
-        "id": "0-5-1769240222112"
-      },
-      {
-        "row": 14,
-        "col": 16,
-        "id": "14-16-1769240257342"
-      }
-    ],
-    "fps": 10,
-    "loop": false,
-    "role": "MORPH_RIGHT"
-  },
-  {
-    "id": "anim-1769238723774",
-    "name": "running left",
-    "frames": [
-      {
-        "row": 2,
-        "col": 19,
-        "id": "2-19-1769238822597"
-      },
-      {
-        "row": 2,
-        "col": 20,
-        "id": "2-20-1769238826877"
-      },
-      {
-        "row": 2,
-        "col": 21,
-        "id": "2-21-1769238830327"
-      },
-      {
-        "row": 2,
-        "col": 22,
-        "id": "2-22-1769238833543"
-      },
-      {
-        "row": 2,
-        "col": 23,
-        "id": "2-23-1769238838785"
-      },
-      {
-        "row": 2,
-        "col": 24,
-        "id": "2-24-1769238841975"
-      },
-      {
-        "row": 2,
-        "col": 25,
-        "id": "2-25-1769238845688"
-      },
-      {
-        "row": 2,
-        "col": 26,
-        "id": "2-26-1769238848599"
-      },
-      {
-        "row": 2,
-        "col": 27,
-        "id": "2-27-1769238851863"
-      },
-      {
-        "row": 2,
-        "col": 28,
-        "id": "2-28-1769238854864"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "RUN_LEFT"
-  },
-  {
-    "id": "anim-1769240273293",
-    "name": "morph ball facing left",
-    "frames": [
-      {
-        "row": 0,
-        "col": 27,
-        "id": "0-27-1769240339079"
-      },
-      {
-        "row": 0,
-        "col": 28,
-        "id": "0-28-1769240440460"
-      },
-      {
-        "row": 0,
-        "col": 29,
-        "id": "0-29-1769240443443"
-      },
-      {
-        "row": 14,
-        "col": 18,
-        "id": "14-18-1769240459687"
-      }
-    ],
-    "fps": 12,
-    "loop": false
-  },
-  {
-    "id": "anim-1769240477324",
-    "name": "standing facing left",
-    "frames": [
-      {
-        "row": 0,
-        "col": 19,
-        "id": "0-19-1769240592268"
-      },
-      {
-        "row": 0,
-        "col": 20,
-        "id": "0-20-1769240595217"
-      },
-      {
-        "row": 0,
-        "col": 21,
-        "id": "0-21-1769240598219"
-      },
-      {
-        "row": 0,
-        "col": 22,
-        "id": "0-22-1769240600886"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "IDLE_LEFT"
-  },
-  {
-    "id": "anim-1769240611441",
-    "name": "standing facing right",
-    "frames": [
-      {
-        "row": 0,
-        "col": 15,
-        "id": "0-15-1769240658302"
-      },
-      {
-        "row": 0,
-        "col": 14,
-        "id": "0-14-1769240661608"
+        "id": "f-IDLE_RIGHT-0"
       },
       {
         "row": 0,
         "col": 13,
-        "id": "0-13-1769240666135"
+        "id": "f-IDLE_RIGHT-1"
       },
       {
         "row": 0,
-        "col": 12,
-        "id": "0-12-1769240669203"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "IDLE_RIGHT"
-  },
-  {
-    "id": "anim-1769241420200",
-    "name": "varia suite",
-    "frames": [
+        "col": 14,
+        "id": "f-IDLE_RIGHT-2"
+      },
       {
         "row": 0,
-        "col": 0,
-        "id": "0-0-1769241460393"
-      },
-      {
-        "row": 1,
-        "col": 0,
-        "id": "1-0-1769241463517"
-      },
-      {
-        "row": 2,
-        "col": 0,
-        "id": "2-0-1769241467304"
-      },
-      {
-        "row": 3,
-        "col": 0,
-        "id": "3-0-1769241471567"
-      },
-      {
-        "row": 4,
-        "col": 0,
-        "id": "4-0-1769241474686"
-      },
-      {
-        "row": 5,
-        "col": 0,
-        "id": "5-0-1769241479282"
-      },
-      {
-        "row": 6,
-        "col": 0,
-        "id": "6-0-1769241482422"
-      },
-      {
-        "row": 7,
-        "col": 0,
-        "id": "7-0-1769241485265"
-      },
-      {
-        "row": 8,
-        "col": 0,
-        "id": "8-0-1769241488406"
-      },
-      {
-        "row": 9,
-        "col": 0,
-        "id": "9-0-1769241491426"
-      },
-      {
-        "row": 10,
-        "col": 0,
-        "id": "10-0-1769241495506"
-      },
-      {
-        "row": 11,
-        "col": 0,
-        "id": "11-0-1769241501965"
-      },
-      {
-        "row": 12,
-        "col": 0,
-        "id": "12-0-1769241505897"
-      },
-      {
-        "row": 13,
-        "col": 0,
-        "id": "13-0-1769241509538"
-      },
-      {
-        "row": 14,
-        "col": 0,
-        "id": "14-0-1769241512745"
-      },
-      {
-        "row": 15,
-        "col": 0,
-        "id": "15-0-1769241517575"
-      },
-      {
-        "row": 16,
-        "col": 0,
-        "id": "16-0-1769241520417"
-      },
-      {
-        "row": 17,
-        "col": 0,
-        "id": "17-0-1769241525730"
+        "col": 15,
+        "id": "f-IDLE_RIGHT-3"
       }
     ],
     "fps": 6,
-    "loop": true
-  },
-  {
-    "id": "anim-1769241757105",
-    "name": "facing right grapple knees subtracted  ",
-    "frames": [
-      {
-        "row": 10,
-        "col": 1,
-        "id": "10-1-1769241845565"
-      },
-      {
-        "row": 10,
-        "col": 2,
-        "id": "10-2-1769241850130"
-      },
-      {
-        "row": 10,
-        "col": 3,
-        "id": "10-3-1769241853476"
-      },
-      {
-        "row": 10,
-        "col": 4,
-        "id": "10-4-1769241856114"
-      },
-      {
-        "row": 10,
-        "col": 5,
-        "id": "10-5-1769241859901"
-      },
-      {
-        "row": 10,
-        "col": 6,
-        "id": "10-6-1769241862610"
-      },
-      {
-        "row": 10,
-        "col": 7,
-        "id": "10-7-1769241865289"
-      },
-      {
-        "row": 10,
-        "col": 8,
-        "id": "10-8-1769241868462"
-      },
-      {
-        "row": 10,
-        "col": 9,
-        "id": "10-9-1769241871330"
-      },
-      {
-        "row": 10,
-        "col": 10,
-        "id": "10-10-1769241873939"
-      },
-      {
-        "row": 10,
-        "col": 11,
-        "id": "10-11-1769241878085"
-      },
-      {
-        "row": 10,
-        "col": 12,
-        "id": "10-12-1769241881050"
-      },
-      {
-        "row": 10,
-        "col": 13,
-        "id": "10-13-1769241883928"
-      },
-      {
-        "row": 10,
-        "col": 14,
-        "id": "10-14-1769241886819"
-      },
-      {
-        "row": 10,
-        "col": 15,
-        "id": "10-15-1769241890916"
-      },
-      {
-        "row": 10,
-        "col": 16,
-        "id": "10-16-1769241894620"
-      },
-      {
-        "row": 10,
-        "col": 17,
-        "id": "10-17-1769241899129"
-      },
-      {
-        "row": 10,
-        "col": 18,
-        "id": "10-18-1769241902336"
-      },
-      {
-        "row": 10,
-        "col": 19,
-        "id": "10-19-1769241907319"
-      },
-      {
-        "row": 10,
-        "col": 20,
-        "id": "10-20-1769241910415"
-      },
-      {
-        "row": 10,
-        "col": 21,
-        "id": "10-21-1769241917739"
-      },
-      {
-        "row": 10,
-        "col": 22,
-        "id": "10-22-1769241921091"
-      },
-      {
-        "row": 10,
-        "col": 23,
-        "id": "10-23-1769241924520"
-      },
-      {
-        "row": 10,
-        "col": 24,
-        "id": "10-24-1769241927607"
-      },
-      {
-        "row": 10,
-        "col": 25,
-        "id": "10-25-1769241932346"
-      },
-      {
-        "row": 10,
-        "col": 26,
-        "id": "10-26-1769241935486"
-      },
-      {
-        "row": 10,
-        "col": 27,
-        "id": "10-27-1769241939275"
-      },
-      {
-        "row": 10,
-        "col": 28,
-        "id": "10-28-1769241942818"
-      },
-      {
-        "row": 10,
-        "col": 29,
-        "id": "10-29-1769241950482"
-      },
-      {
-        "row": 10,
-        "col": 30,
-        "id": "10-30-1769241953688"
-      },
-      {
-        "row": 10,
-        "col": 31,
-        "id": "10-31-1769241956926"
-      },
-      {
-        "row": 10,
-        "col": 32,
-        "id": "10-32-1769241959814"
-      },
-      {
-        "row": 10,
-        "col": 33,
-        "id": "10-33-1769241962907"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769244380575",
-    "name": "turn standing facing right to facing left",
-    "frames": [
-      {
-        "row": 3,
-        "col": 16,
-        "id": "3-16-1769244471991"
-      },
-      {
-        "row": 3,
-        "col": 17,
-        "id": "3-17-1769244477852"
-      },
-      {
-        "row": 3,
-        "col": 18,
-        "id": "3-18-1769244481689"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769244519667",
-    "name": "turn crouched facing right to facing left",
-    "frames": [
-      {
-        "row": 1,
-        "col": 16,
-        "id": "1-16-1769244665803"
-      },
-      {
-        "row": 1,
-        "col": 17,
-        "id": "1-17-1769244668789"
-      },
-      {
-        "row": 1,
-        "col": 18,
-        "id": "1-18-1769244671906"
-      }
-    ],
-    "fps": 12,
     "loop": true,
+    "role": "IDLE_RIGHT",
     "flipX": false
   },
   {
-    "id": "anim-1769244736206",
-    "name": "running facing right aiming straight ",
+    "id": "role-IDLE_LEFT",
+    "name": "IDLE LEFT",
     "frames": [
       {
-        "row": 3,
-        "col": 6,
-        "id": "3-6-1769244807720"
-      },
-      {
-        "row": 3,
-        "col": 7,
-        "id": "3-7-1769244810737"
-      },
-      {
-        "row": 3,
-        "col": 8,
-        "id": "3-8-1769244814047"
-      },
-      {
-        "row": 3,
-        "col": 9,
-        "id": "3-9-1769244816818"
-      },
-      {
-        "row": 3,
-        "col": 10,
-        "id": "3-10-1769244820574"
-      },
-      {
-        "row": 3,
-        "col": 11,
-        "id": "3-11-1769244824135"
-      },
-      {
-        "row": 3,
-        "col": 12,
-        "id": "3-12-1769244827227"
-      },
-      {
-        "row": 3,
-        "col": 13,
-        "id": "3-13-1769244834142"
-      },
-      {
-        "row": 3,
-        "col": 14,
-        "id": "3-14-1769244839649"
-      },
-      {
-        "row": 3,
-        "col": 15,
-        "id": "3-15-1769244842911"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769244865259",
-    "name": "running facing left aiming straight  ",
-    "frames": [
-      {
-        "row": 3,
+        "row": 0,
         "col": 19,
-        "id": "3-19-1769244927755"
+        "id": "f-IDLE_LEFT-0"
       },
       {
-        "row": 3,
+        "row": 0,
         "col": 20,
-        "id": "3-20-1769244930118"
+        "id": "f-IDLE_LEFT-1"
       },
       {
-        "row": 3,
+        "row": 0,
         "col": 21,
-        "id": "3-21-1769244932878"
+        "id": "f-IDLE_LEFT-2"
       },
       {
-        "row": 3,
+        "row": 0,
         "col": 22,
-        "id": "3-22-1769244937085"
-      },
-      {
-        "row": 3,
-        "col": 23,
-        "id": "3-23-1769244941048"
-      },
-      {
-        "row": 3,
-        "col": 24,
-        "id": "3-24-1769244944113"
-      },
-      {
-        "row": 3,
-        "col": 25,
-        "id": "3-25-1769244948207"
-      },
-      {
-        "row": 3,
-        "col": 26,
-        "id": "3-26-1769244950776"
-      },
-      {
-        "row": 3,
-        "col": 27,
-        "id": "3-27-1769244953325"
-      },
-      {
-        "row": 3,
-        "col": 28,
-        "id": "3-28-1769244956542"
+        "id": "f-IDLE_LEFT-3"
       }
     ],
-    "fps": 12,
-    "loop": true
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_LEFT",
+    "flipX": false
   },
   {
-    "id": "anim-1769244975487",
-    "name": "running facing right aiming northeast",
+    "id": "role-IDLE_AIM_UP_RIGHT",
+    "name": "IDLE AIM UP RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 10,
+        "id": "f-IDLE_AIM_UP_RIGHT-0"
+      }
+    ],
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_AIM_UP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-IDLE_AIM_UP_LEFT",
+    "name": "IDLE AIM UP LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 24,
+        "id": "f-IDLE_AIM_UP_LEFT-0"
+      }
+    ],
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_AIM_UP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-IDLE_AIM_UP_DIAG_RIGHT",
+    "name": "IDLE AIM UP DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 9,
+        "id": "f-IDLE_AIM_UP_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_AIM_UP_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-IDLE_AIM_UP_DIAG_LEFT",
+    "name": "IDLE AIM UP DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 23,
+        "id": "f-IDLE_AIM_UP_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_AIM_UP_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-IDLE_AIM_DOWN_DIAG_RIGHT",
+    "name": "IDLE AIM DOWN DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 11,
+        "id": "f-IDLE_AIM_DOWN_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_AIM_DOWN_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-IDLE_AIM_DOWN_DIAG_LEFT",
+    "name": "IDLE AIM DOWN DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 24,
+        "id": "f-IDLE_AIM_DOWN_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 6,
+    "loop": true,
+    "role": "IDLE_AIM_DOWN_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-RUN_RIGHT",
+    "name": "RUN RIGHT",
+    "frames": [
+      {
+        "row": 2,
+        "col": 6,
+        "id": "f-RUN_RIGHT-0"
+      },
+      {
+        "row": 2,
+        "col": 7,
+        "id": "f-RUN_RIGHT-1"
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "id": "f-RUN_RIGHT-2"
+      },
+      {
+        "row": 2,
+        "col": 9,
+        "id": "f-RUN_RIGHT-3"
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "id": "f-RUN_RIGHT-4"
+      },
+      {
+        "row": 2,
+        "col": 11,
+        "id": "f-RUN_RIGHT-5"
+      },
+      {
+        "row": 2,
+        "col": 12,
+        "id": "f-RUN_RIGHT-6"
+      },
+      {
+        "row": 2,
+        "col": 13,
+        "id": "f-RUN_RIGHT-7"
+      },
+      {
+        "row": 2,
+        "col": 14,
+        "id": "f-RUN_RIGHT-8"
+      },
+      {
+        "row": 2,
+        "col": 15,
+        "id": "f-RUN_RIGHT-9"
+      }
+    ],
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-RUN_LEFT",
+    "name": "RUN LEFT",
+    "frames": [
+      {
+        "row": 2,
+        "col": 19,
+        "id": "f-RUN_LEFT-0"
+      },
+      {
+        "row": 2,
+        "col": 20,
+        "id": "f-RUN_LEFT-1"
+      },
+      {
+        "row": 2,
+        "col": 21,
+        "id": "f-RUN_LEFT-2"
+      },
+      {
+        "row": 2,
+        "col": 22,
+        "id": "f-RUN_LEFT-3"
+      },
+      {
+        "row": 2,
+        "col": 23,
+        "id": "f-RUN_LEFT-4"
+      },
+      {
+        "row": 2,
+        "col": 24,
+        "id": "f-RUN_LEFT-5"
+      },
+      {
+        "row": 2,
+        "col": 25,
+        "id": "f-RUN_LEFT-6"
+      },
+      {
+        "row": 2,
+        "col": 26,
+        "id": "f-RUN_LEFT-7"
+      },
+      {
+        "row": 2,
+        "col": 27,
+        "id": "f-RUN_LEFT-8"
+      },
+      {
+        "row": 2,
+        "col": 28,
+        "id": "f-RUN_LEFT-9"
+      }
+    ],
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-RUN_AIM_UP_RIGHT",
+    "name": "RUN AIM UP RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-RUN_AIM_UP_RIGHT-0"
+      }
+    ],
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_AIM_UP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-RUN_AIM_UP_LEFT",
+    "name": "RUN AIM UP LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-RUN_AIM_UP_LEFT-0"
+      }
+    ],
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_AIM_UP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-RUN_AIM_UP_DIAG_RIGHT",
+    "name": "RUN AIM UP DIAG RIGHT",
     "frames": [
       {
         "row": 4,
         "col": 6,
-        "id": "4-6-1769245048313"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-0"
       },
       {
         "row": 4,
         "col": 7,
-        "id": "4-7-1769245051001"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-1"
       },
       {
         "row": 4,
         "col": 8,
-        "id": "4-8-1769245053588"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-2"
       },
       {
         "row": 4,
         "col": 9,
-        "id": "4-9-1769245056375"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-3"
       },
       {
         "row": 4,
         "col": 10,
-        "id": "4-10-1769245059061"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-4"
       },
       {
         "row": 4,
         "col": 11,
-        "id": "4-11-1769245061818"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-5"
       },
       {
         "row": 4,
         "col": 12,
-        "id": "4-12-1769245064846"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-6"
       },
       {
         "row": 4,
         "col": 13,
-        "id": "4-13-1769245067642"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-7"
       },
       {
         "row": 4,
         "col": 14,
-        "id": "4-14-1769245072409"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-8"
       },
       {
         "row": 4,
         "col": 15,
-        "id": "4-15-1769245075039"
+        "id": "f-RUN_AIM_UP_DIAG_RIGHT-9"
       }
     ],
-    "fps": 12,
-    "loop": true
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_AIM_UP_DIAG_RIGHT",
+    "flipX": false
   },
   {
-    "id": "anim-1769245091906",
-    "name": "running facing left aiming northwest",
+    "id": "role-RUN_AIM_UP_DIAG_LEFT",
+    "name": "RUN AIM UP DIAG LEFT",
     "frames": [
       {
         "row": 4,
         "col": 19,
-        "id": "4-19-1769245146298"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-0"
       },
       {
         "row": 4,
         "col": 20,
-        "id": "4-20-1769245149347"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-1"
       },
       {
         "row": 4,
         "col": 21,
-        "id": "4-21-1769245154448"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-2"
       },
       {
         "row": 4,
         "col": 22,
-        "id": "4-22-1769245157225"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-3"
       },
       {
         "row": 4,
         "col": 23,
-        "id": "4-23-1769245160074"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-4"
       },
       {
         "row": 4,
         "col": 24,
-        "id": "4-24-1769245163067"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-5"
       },
       {
         "row": 4,
         "col": 25,
-        "id": "4-25-1769245165572"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-6"
       },
       {
         "row": 4,
         "col": 26,
-        "id": "4-26-1769245168515"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-7"
       },
       {
         "row": 4,
         "col": 27,
-        "id": "4-27-1769245171315"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-8"
       },
       {
         "row": 4,
         "col": 28,
-        "id": "4-28-1769245174298"
+        "id": "f-RUN_AIM_UP_DIAG_LEFT-9"
       }
     ],
-    "fps": 12,
-    "loop": true
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_AIM_UP_DIAG_LEFT",
+    "flipX": false
   },
   {
-    "id": "anim-1769245205997",
-    "name": "running facing right aiming southeast ",
+    "id": "role-RUN_AIM_DOWN_DIAG_RIGHT",
+    "name": "RUN AIM DOWN DIAG RIGHT",
     "frames": [
       {
         "row": 5,
         "col": 6,
-        "id": "5-6-1769245251752"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-0"
       },
       {
         "row": 5,
         "col": 7,
-        "id": "5-7-1769245254637"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-1"
       },
       {
         "row": 5,
         "col": 8,
-        "id": "5-8-1769245257365"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-2"
       },
       {
         "row": 5,
         "col": 9,
-        "id": "5-9-1769245260483"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-3"
       },
       {
         "row": 5,
         "col": 10,
-        "id": "5-10-1769245263463"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-4"
       },
       {
         "row": 5,
         "col": 11,
-        "id": "5-11-1769245266078"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-5"
       },
       {
         "row": 5,
         "col": 12,
-        "id": "5-12-1769245268844"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-6"
       },
       {
         "row": 5,
         "col": 13,
-        "id": "5-13-1769245271832"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-7"
       },
       {
         "row": 5,
         "col": 14,
-        "id": "5-14-1769245274820"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-8"
       },
       {
         "row": 5,
         "col": 15,
-        "id": "5-15-1769245280193"
+        "id": "f-RUN_AIM_DOWN_DIAG_RIGHT-9"
       }
     ],
-    "fps": 12,
-    "loop": true
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_AIM_DOWN_DIAG_RIGHT",
+    "flipX": false
   },
   {
-    "id": "anim-1769245298575",
-    "name": "knockback facing right",
+    "id": "role-RUN_AIM_DOWN_DIAG_LEFT",
+    "name": "RUN AIM DOWN DIAG LEFT",
     "frames": [
       {
-        "row": 0,
-        "col": 8,
-        "id": "0-8-1769245462268"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "id": "0-7-1769245465463"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769245482726",
-    "name": "knockback facing left",
-    "frames": [
-      {
-        "row": 0,
-        "col": 26,
-        "id": "0-26-1769245511596"
-      },
-      {
-        "row": 0,
-        "col": 27,
-        "id": "0-27-1769245514559"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769245682739",
-    "name": "running facing left aiming southwest",
-    "frames": [
-      {
-        "row": 5,
+        "row": 4,
         "col": 19,
-        "id": "5-19-1769245778538"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-0"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 20,
-        "id": "5-20-1769245781172"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-1"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 21,
-        "id": "5-21-1769245786936"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-2"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 22,
-        "id": "5-22-1769245790026"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-3"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 23,
-        "id": "5-23-1769245792904"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-4"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 24,
-        "id": "5-24-1769245795765"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-5"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 25,
-        "id": "5-25-1769245798584"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-6"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 26,
-        "id": "5-26-1769245802344"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-7"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 27,
-        "id": "5-27-1769245807818"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-8"
       },
       {
-        "row": 5,
+        "row": 4,
         "col": 28,
-        "id": "5-28-1769245811268"
+        "id": "f-RUN_AIM_DOWN_DIAG_LEFT-9"
+      }
+    ],
+    "fps": 14,
+    "loop": true,
+    "role": "RUN_AIM_DOWN_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_RIGHT",
+    "name": "CROUCH RIGHT",
+    "frames": [
+      {
+        "row": 1,
+        "col": 12,
+        "id": "f-CROUCH_RIGHT-0"
+      },
+      {
+        "row": 1,
+        "col": 13,
+        "id": "f-CROUCH_RIGHT-1"
+      },
+      {
+        "row": 1,
+        "col": 14,
+        "id": "f-CROUCH_RIGHT-2"
+      },
+      {
+        "row": 1,
+        "col": 15,
+        "id": "f-CROUCH_RIGHT-3"
       }
     ],
     "fps": 12,
-    "loop": true
+    "loop": true,
+    "role": "CROUCH_RIGHT",
+    "flipX": false
   },
   {
-    "id": "anim-1769245831198",
-    "name": "turn standing facing right into facing left aiming down",
+    "id": "role-CROUCH_LEFT",
+    "name": "CROUCH LEFT",
     "frames": [
       {
-        "row": 5,
+        "row": 1,
+        "col": 19,
+        "id": "f-CROUCH_LEFT-0"
+      },
+      {
+        "row": 1,
+        "col": 20,
+        "id": "f-CROUCH_LEFT-1"
+      },
+      {
+        "row": 1,
+        "col": 21,
+        "id": "f-CROUCH_LEFT-2"
+      },
+      {
+        "row": 1,
+        "col": 22,
+        "id": "f-CROUCH_LEFT-3"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_AIM_UP_RIGHT",
+    "name": "CROUCH AIM UP RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-CROUCH_AIM_UP_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_AIM_UP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_AIM_UP_LEFT",
+    "name": "CROUCH AIM UP LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-CROUCH_AIM_UP_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_AIM_UP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_AIM_UP_DIAG_RIGHT",
+    "name": "CROUCH AIM UP DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-CROUCH_AIM_UP_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_AIM_UP_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_AIM_UP_DIAG_LEFT",
+    "name": "CROUCH AIM UP DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-CROUCH_AIM_UP_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_AIM_UP_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_AIM_DOWN_DIAG_RIGHT",
+    "name": "CROUCH AIM DOWN DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-CROUCH_AIM_DOWN_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_AIM_DOWN_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-CROUCH_AIM_DOWN_DIAG_LEFT",
+    "name": "CROUCH AIM DOWN DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-CROUCH_AIM_DOWN_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "CROUCH_AIM_DOWN_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_RIGHT",
+    "name": "JUMP RIGHT",
+    "frames": [
+      {
+        "row": 6,
+        "col": 14,
+        "id": "f-JUMP_RIGHT-0"
+      },
+      {
+        "row": 6,
+        "col": 13,
+        "id": "f-JUMP_RIGHT-1"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_LEFT",
+    "name": "JUMP LEFT",
+    "frames": [
+      {
+        "row": 6,
+        "col": 20,
+        "id": "f-JUMP_LEFT-0"
+      },
+      {
+        "row": 6,
+        "col": 21,
+        "id": "f-JUMP_LEFT-1"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_UP_RIGHT",
+    "name": "JUMP AIM UP RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_UP_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_UP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_UP_LEFT",
+    "name": "JUMP AIM UP LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_UP_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_UP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_UP_DIAG_RIGHT",
+    "name": "JUMP AIM UP DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_UP_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_UP_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_UP_DIAG_LEFT",
+    "name": "JUMP AIM UP DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_UP_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_UP_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_DOWN_DIAG_RIGHT",
+    "name": "JUMP AIM DOWN DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_DOWN_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_DOWN_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_DOWN_DIAG_LEFT",
+    "name": "JUMP AIM DOWN DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_DOWN_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_DOWN_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_DOWN_RIGHT",
+    "name": "JUMP AIM DOWN RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_DOWN_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_DOWN_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-JUMP_AIM_DOWN_LEFT",
+    "name": "JUMP AIM DOWN LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-JUMP_AIM_DOWN_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "JUMP_AIM_DOWN_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_RIGHT",
+    "name": "FALL RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_LEFT",
+    "name": "FALL LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_UP_RIGHT",
+    "name": "FALL AIM UP RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_UP_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_UP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_UP_LEFT",
+    "name": "FALL AIM UP LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_UP_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_UP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_UP_DIAG_RIGHT",
+    "name": "FALL AIM UP DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_UP_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_UP_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_UP_DIAG_LEFT",
+    "name": "FALL AIM UP DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_UP_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_UP_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_DOWN_DIAG_RIGHT",
+    "name": "FALL AIM DOWN DIAG RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_DOWN_DIAG_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_DOWN_DIAG_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_DOWN_DIAG_LEFT",
+    "name": "FALL AIM DOWN DIAG LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_DOWN_DIAG_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_DOWN_DIAG_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_DOWN_RIGHT",
+    "name": "FALL AIM DOWN RIGHT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_DOWN_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_DOWN_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-FALL_AIM_DOWN_LEFT",
+    "name": "FALL AIM DOWN LEFT",
+    "frames": [
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-FALL_AIM_DOWN_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "FALL_AIM_DOWN_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-SPIN_JUMP_RIGHT",
+    "name": "SPIN JUMP RIGHT",
+    "frames": [
+      {
+        "row": 8,
         "col": 16,
-        "id": "5-16-1769245959636"
+        "id": "f-SPIN_JUMP_RIGHT-0"
       },
       {
-        "row": 5,
+        "row": 8,
+        "col": 8,
+        "id": "f-SPIN_JUMP_RIGHT-1"
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "id": "f-SPIN_JUMP_RIGHT-2"
+      },
+      {
+        "row": 8,
+        "col": 10,
+        "id": "f-SPIN_JUMP_RIGHT-3"
+      },
+      {
+        "row": 8,
+        "col": 11,
+        "id": "f-SPIN_JUMP_RIGHT-4"
+      },
+      {
+        "row": 8,
+        "col": 12,
+        "id": "f-SPIN_JUMP_RIGHT-5"
+      },
+      {
+        "row": 8,
+        "col": 13,
+        "id": "f-SPIN_JUMP_RIGHT-6"
+      },
+      {
+        "row": 8,
+        "col": 14,
+        "id": "f-SPIN_JUMP_RIGHT-7"
+      },
+      {
+        "row": 8,
+        "col": 15,
+        "id": "f-SPIN_JUMP_RIGHT-8"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "SPIN_JUMP_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-SPIN_JUMP_LEFT",
+    "name": "SPIN JUMP LEFT",
+    "frames": [
+      {
+        "row": 8,
+        "col": 18,
+        "id": "f-SPIN_JUMP_LEFT-0"
+      },
+      {
+        "row": 8,
+        "col": 19,
+        "id": "f-SPIN_JUMP_LEFT-1"
+      },
+      {
+        "row": 8,
+        "col": 20,
+        "id": "f-SPIN_JUMP_LEFT-2"
+      },
+      {
+        "row": 8,
+        "col": 21,
+        "id": "f-SPIN_JUMP_LEFT-3"
+      },
+      {
+        "row": 8,
+        "col": 22,
+        "id": "f-SPIN_JUMP_LEFT-4"
+      },
+      {
+        "row": 8,
+        "col": 23,
+        "id": "f-SPIN_JUMP_LEFT-5"
+      },
+      {
+        "row": 8,
+        "col": 24,
+        "id": "f-SPIN_JUMP_LEFT-6"
+      },
+      {
+        "row": 8,
+        "col": 25,
+        "id": "f-SPIN_JUMP_LEFT-7"
+      },
+      {
+        "row": 8,
+        "col": 26,
+        "id": "f-SPIN_JUMP_LEFT-8"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "SPIN_JUMP_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-MORPH_STATIONARY_RIGHT",
+    "name": "MORPH STATIONARY RIGHT",
+    "frames": [
+      {
+        "row": 14,
+        "col": 9,
+        "id": "f-MORPH_STATIONARY_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "MORPH_STATIONARY_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-MORPH_STATIONARY_LEFT",
+    "name": "MORPH STATIONARY LEFT",
+    "frames": [
+      {
+        "row": 14,
+        "col": 19,
+        "id": "f-MORPH_STATIONARY_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "MORPH_STATIONARY_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-MORPH_MOVING_RIGHT",
+    "name": "MORPH MOVING RIGHT",
+    "frames": [
+      {
+        "row": 14,
+        "col": 10,
+        "id": "f-MORPH_MOVING_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "MORPH_MOVING_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-MORPH_MOVING_LEFT",
+    "name": "MORPH MOVING LEFT",
+    "frames": [
+      {
+        "row": 14,
+        "col": 18,
+        "id": "f-MORPH_MOVING_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "MORPH_MOVING_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-MORPH_AIR_RIGHT",
+    "name": "MORPH AIR RIGHT",
+    "frames": [
+      {
+        "row": 14,
+        "col": 11,
+        "id": "f-MORPH_AIR_RIGHT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "MORPH_AIR_RIGHT",
+    "flipX": false
+  },
+  {
+    "id": "role-MORPH_AIR_LEFT",
+    "name": "MORPH AIR LEFT",
+    "frames": [
+      {
+        "row": 14,
+        "col": 21,
+        "id": "f-MORPH_AIR_LEFT-0"
+      }
+    ],
+    "fps": 12,
+    "loop": true,
+    "role": "MORPH_AIR_LEFT",
+    "flipX": false
+  },
+  {
+    "id": "role-TURNING_RIGHT",
+    "name": "TURNING RIGHT",
+    "frames": [
+      {
+        "row": 3,
+        "col": 16,
+        "id": "f-TURNING_RIGHT-0"
+      },
+      {
+        "row": 3,
         "col": 17,
-        "id": "5-17-1769245962758"
+        "id": "f-TURNING_RIGHT-1"
       },
       {
-        "row": 5,
+        "row": 13,
         "col": 18,
-        "id": "5-18-1769245966104"
+        "id": "f-TURNING_RIGHT-2"
       }
     ],
     "fps": 12,
     "loop": true,
-    "role": "TURNING_RIGHT_TO_LEFT"
+    "role": "TURNING_RIGHT",
+    "flipX": false
   },
   {
-    "id": "anim-1769246073427",
-    "name": "crouch facing right aiming straight ",
+    "id": "role-TURNING_LEFT",
+    "name": "TURNING LEFT",
     "frames": [
       {
-        "row": 1,
-        "col": 12,
-        "id": "1-12-1769246140531"
+        "row": 3,
+        "col": 18,
+        "id": "f-TURNING_LEFT-0"
       },
       {
-        "row": 1,
-        "col": 13,
-        "id": "1-13-1769246149973"
-      },
-      {
-        "row": 1,
-        "col": 14,
-        "id": "1-14-1769246153337"
-      },
-      {
-        "row": 1,
-        "col": 15,
-        "id": "1-15-1769246156990"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "CROUCH_RIGHT"
-  },
-  {
-    "id": "anim-1769246178993",
-    "name": "crouch facing left aiming straight ",
-    "frames": [
-      {
-        "row": 1,
-        "col": 19,
-        "id": "1-19-1769246225808"
-      },
-      {
-        "row": 1,
-        "col": 20,
-        "id": "1-20-1769246228756"
-      },
-      {
-        "row": 1,
-        "col": 21,
-        "id": "1-21-1769246233862"
-      },
-      {
-        "row": 1,
-        "col": 22,
-        "id": "1-22-1769246237056"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "CROUCH_LEFT"
-  },
-  {
-    "id": "anim-1769246296696",
-    "name": "crouch turn facing right into facing left aiming straight",
-    "frames": [
-      {
-        "row": 1,
-        "col": 16,
-        "id": "1-16-1769246398661"
-      },
-      {
-        "row": 1,
+        "row": 3,
         "col": 17,
-        "id": "1-17-1769246401932"
+        "id": "f-TURNING_LEFT-1"
       },
       {
-        "row": 1,
-        "col": 18,
-        "id": "1-18-1769246405256"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769246459247",
-    "name": "jump up facing right",
-    "frames": [
-      {
-        "row": 6,
-        "col": 15,
-        "id": "6-15-1769246491390"
-      },
-      {
-        "row": 6,
-        "col": 14,
-        "id": "6-14-1769246494305"
-      },
-      {
-        "row": 6,
-        "col": 13,
-        "id": "6-13-1769246497851"
+        "row": 13,
+        "col": 16,
+        "id": "f-TURNING_LEFT-2"
       }
     ],
     "fps": 12,
     "loop": true,
-    "role": "JUMP_RIGHT"
+    "role": "TURNING_LEFT",
+    "flipX": false
   },
   {
-    "id": "anim-1769246514234",
-    "name": "jump up facing left",
+    "id": "role-LAND_RIGHT",
+    "name": "LAND RIGHT",
     "frames": [
       {
-        "row": 6,
-        "col": 19,
-        "id": "6-19-1769246549962"
-      },
-      {
-        "row": 6,
-        "col": 20,
-        "id": "6-20-1769246552799"
-      },
-      {
-        "row": 6,
-        "col": 21,
-        "id": "6-21-1769246556406"
+        "row": 10,
+        "col": 4,
+        "id": "f-LAND_RIGHT-0"
       }
     ],
     "fps": 12,
     "loop": true,
-    "role": "JUMP_LEFT"
+    "role": "LAND_RIGHT",
+    "flipX": false
   },
   {
-    "id": "anim-1769246611885",
-    "name": "in air facing right aiming down",
+    "id": "role-LAND_LEFT",
+    "name": "LAND LEFT",
     "frames": [
       {
-        "row": 6,
-        "col": 12,
-        "id": "6-12-1769246648626"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769246660296",
-    "name": "in air facing left aiming down",
-    "frames": [
-      {
-        "row": 6,
-        "col": 22,
-        "id": "6-22-1769246707281"
-      }
-    ],
-    "fps": 12,
-    "loop": true
-  },
-  {
-    "id": "anim-1769252961107",
-    "name": "facing right normal jump aiming up",
-    "frames": [
-      {
-        "row": 6,
-        "col": 7,
-        "id": "6-7-1769256220990"
-      },
-      {
-        "row": 6,
-        "col": 10,
-        "id": "6-10-1769256226879"
+        "row": 10,
+        "col": 5,
+        "id": "f-LAND_LEFT-0"
       }
     ],
     "fps": 12,
     "loop": true,
-    "role": null
+    "role": "LAND_LEFT",
+    "flipX": false
   },
   {
-    "id": "anim-1769253123465",
-    "name": "faling facing right",
-    "frames": [
-      {
-        "row": 7,
-        "col": 15,
-        "id": "7-15-1769253177482"
-      },
-      {
-        "row": 7,
-        "col": 14,
-        "id": "7-14-1769253180644"
-      },
-      {
-        "row": 7,
-        "col": 13,
-        "id": "7-13-1769253184763"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "FALL_RIGHT"
-  },
-  {
-    "id": "anim-1769253197753",
-    "name": "faling facing left",
-    "frames": [
-      {
-        "row": 7,
-        "col": 19,
-        "id": "7-19-1769253235501"
-      },
-      {
-        "row": 7,
-        "col": 20,
-        "id": "7-20-1769253239017"
-      },
-      {
-        "row": 7,
-        "col": 21,
-        "id": "7-21-1769253242340"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "FALL_LEFT"
-  },
-  {
-    "id": "anim-1769255585948",
-    "name": "facing right aiming up",
+    "id": "role-LOADING_POWER",
+    "name": "LOADING POWER",
     "frames": [
       {
         "row": 0,
-        "col": 9,
-        "id": "0-9-1769255683809"
+        "col": 0,
+        "id": "f-LOADING_POWER-0"
       },
       {
         "row": 0,
-        "col": 10,
-        "id": "0-10-1769255690137"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769255740346",
-    "name": "facing left aiming up",
-    "frames": [
-      {
-        "row": 0,
-        "col": 23,
-        "id": "0-23-1769255772890"
+        "col": 1,
+        "id": "f-LOADING_POWER-1"
       },
       {
         "row": 0,
-        "col": 24,
-        "id": "0-24-1769255777239"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769255823661",
-    "name": "aiming up ",
-    "frames": [
-      {
-        "row": 0,
-        "col": 9,
-        "id": "0-9-1769255847959"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769255862883",
-    "name": "aiming up left",
-    "frames": [
-      {
-        "row": 0,
-        "col": 23,
-        "id": "0-23-1769255886877"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769255917795",
-    "name": "aiming down right",
-    "frames": [
-      {
-        "row": 0,
-        "col": 11,
-        "id": "0-11-1769255943868"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769255955918",
-    "name": "aiming down left",
-    "frames": [
-      {
-        "row": 0,
-        "col": 25,
-        "id": "0-25-1769255989663"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769256242031",
-    "name": "facing left normal jump aiming up",
-    "frames": [
-      {
-        "row": 6,
-        "col": 26,
-        "id": "6-26-1769256305791"
+        "col": 2,
+        "id": "f-LOADING_POWER-2"
       },
       {
-        "row": 6,
-        "col": 24,
-        "id": "6-24-1769256310441"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769256360797",
-    "name": "facing right normal jump aiming down",
-    "frames": [
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-3"
+      },
       {
-        "row": 6,
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-4"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-5"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-6"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-7"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-8"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-9"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-10"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-11"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-12"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-13"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-14"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-15"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-16"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-17"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-18"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-19"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-20"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-21"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-22"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-23"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-24"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-25"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-26"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-27"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-28"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-29"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-30"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-31"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-32"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-33"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-34"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-35"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-36"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-37"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-38"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-39"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-40"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-41"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-42"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-43"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-44"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-45"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-46"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-47"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-48"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-49"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-50"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-51"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-52"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-53"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-54"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-55"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-56"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-57"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-58"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-59"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-60"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-61"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-62"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-63"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-64"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-65"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-66"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-67"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-68"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-69"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-70"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-71"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "id": "f-LOADING_POWER-72"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "id": "f-LOADING_POWER-73"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "id": "f-LOADING_POWER-74"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "id": "f-LOADING_POWER-75"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "id": "f-LOADING_POWER-76"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "id": "f-LOADING_POWER-77"
+      },
+      {
+        "row": 0,
         "col": 6,
-        "id": "6-6-1769256478073"
+        "id": "f-LOADING_POWER-78"
       },
       {
-        "row": 6,
-        "col": 12,
-        "id": "6-12-1769256483011"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769256492170",
-    "name": "facing left normal jump aiming down",
-    "frames": [
-      {
-        "row": 6,
-        "col": 28,
-        "id": "6-28-1769256546162"
+        "row": 0,
+        "col": 7,
+        "id": "f-LOADING_POWER-79"
       },
       {
-        "row": 6,
-        "col": 22,
-        "id": "6-22-1769256549443"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": null
-  },
-  {
-    "id": "anim-1769256593991",
-    "name": "facing right spin-jump",
-    "frames": [
-      {
-        "row": 8,
-        "col": 16,
-        "id": "8-16-1769256647052"
-      },
-      {
-        "row": 8,
+        "row": 0,
         "col": 8,
-        "id": "8-8-1769256689450"
+        "id": "f-LOADING_POWER-80"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 9,
-        "id": "8-9-1769256696847"
+        "id": "f-LOADING_POWER-81"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 10,
-        "id": "8-10-1769256700231"
+        "id": "f-LOADING_POWER-82"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 11,
-        "id": "8-11-1769256704795"
+        "id": "f-LOADING_POWER-83"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 12,
-        "id": "8-12-1769256707209"
+        "id": "f-LOADING_POWER-84"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 13,
-        "id": "8-13-1769256709837"
+        "id": "f-LOADING_POWER-85"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 14,
-        "id": "8-14-1769256712083"
+        "id": "f-LOADING_POWER-86"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 15,
-        "id": "8-15-1769256714987"
+        "id": "f-LOADING_POWER-87"
       },
       {
-        "row": 8,
+        "row": 0,
         "col": 16,
-        "id": "8-16-1769256719416"
+        "id": "f-LOADING_POWER-88"
+      },
+      {
+        "row": 0,
+        "col": 17,
+        "id": "f-LOADING_POWER-89"
       }
     ],
-    "fps": 12,
-    "loop": true,
-    "role": "SPIN_JUMP_RIGHT"
+    "fps": 30,
+    "loop": false,
+    "role": "LOADING_POWER",
+    "flipX": false
   },
   {
-    "id": "anim-1769256746540",
-    "name": "facing right spin-jump",
+    "id": "role-LOADING_VARIA",
+    "name": "LOADING VARIA",
     "frames": [
       {
-        "row": 8,
-        "col": 18,
-        "id": "8-18-1769256772318"
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-0"
       },
       {
-        "row": 8,
-        "col": 19,
-        "id": "8-19-1769256792868"
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-1"
       },
       {
-        "row": 8,
-        "col": 20,
-        "id": "8-20-1769256796056"
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-2"
       },
       {
-        "row": 8,
-        "col": 21,
-        "id": "8-21-1769256798484"
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-3"
       },
       {
-        "row": 8,
-        "col": 22,
-        "id": "8-22-1769256801291"
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-4"
       },
       {
-        "row": 8,
-        "col": 23,
-        "id": "8-23-1769256804360"
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-5"
       },
       {
-        "row": 8,
-        "col": 24,
-        "id": "8-24-1769256808458"
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-6"
       },
       {
-        "row": 8,
-        "col": 25,
-        "id": "8-25-1769256811984"
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-7"
       },
       {
-        "row": 8,
-        "col": 26,
-        "id": "8-26-1769256816384"
-      }
-    ],
-    "fps": 12,
-    "loop": true,
-    "role": "SPIN_JUMP_LEFT"
-  },
-  {
-    "id": "anim-1769256861862",
-    "name": "facing right space jump",
-    "frames": [
-      {
-        "row": 8,
-        "col": 16,
-        "id": "8-16-1769256900272"
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-8"
       },
       {
-        "row": 9,
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-9"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-10"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-11"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-12"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-13"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-14"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-15"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-16"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-17"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-18"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-19"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-20"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-21"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-22"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-23"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-24"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-25"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-26"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-27"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-28"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-29"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-30"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-31"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-32"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-33"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-34"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-35"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-36"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-37"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-38"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-39"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-40"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-41"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-42"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-43"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-44"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-45"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-46"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-47"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-48"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-49"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-50"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-51"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-52"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-53"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-54"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-55"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-56"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-57"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-58"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-59"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-60"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-61"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-62"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-63"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-64"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-65"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-66"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-67"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-68"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-69"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-70"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-71"
+      },
+      {
+        "row": 35,
+        "col": 0,
+        "id": "f-LOADING_VARIA-72"
+      },
+      {
+        "row": 35,
+        "col": 1,
+        "id": "f-LOADING_VARIA-73"
+      },
+      {
+        "row": 35,
+        "col": 2,
+        "id": "f-LOADING_VARIA-74"
+      },
+      {
+        "row": 35,
+        "col": 3,
+        "id": "f-LOADING_VARIA-75"
+      },
+      {
+        "row": 35,
+        "col": 4,
+        "id": "f-LOADING_VARIA-76"
+      },
+      {
+        "row": 35,
+        "col": 5,
+        "id": "f-LOADING_VARIA-77"
+      },
+      {
+        "row": 35,
+        "col": 6,
+        "id": "f-LOADING_VARIA-78"
+      },
+      {
+        "row": 35,
+        "col": 7,
+        "id": "f-LOADING_VARIA-79"
+      },
+      {
+        "row": 35,
         "col": 8,
-        "id": "9-8-1769256904733"
+        "id": "f-LOADING_VARIA-80"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 9,
-        "id": "9-9-1769256907900"
+        "id": "f-LOADING_VARIA-81"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 10,
-        "id": "9-10-1769256910733"
+        "id": "f-LOADING_VARIA-82"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 11,
-        "id": "9-11-1769256913162"
+        "id": "f-LOADING_VARIA-83"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 12,
-        "id": "9-12-1769256916134"
+        "id": "f-LOADING_VARIA-84"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 13,
-        "id": "9-13-1769256919169"
+        "id": "f-LOADING_VARIA-85"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 14,
-        "id": "9-14-1769256921799"
+        "id": "f-LOADING_VARIA-86"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 15,
-        "id": "9-15-1769256926192"
+        "id": "f-LOADING_VARIA-87"
       },
       {
-        "row": 9,
+        "row": 35,
         "col": 16,
-        "id": "9-16-1769256930271"
+        "id": "f-LOADING_VARIA-88"
+      },
+      {
+        "row": 35,
+        "col": 17,
+        "id": "f-LOADING_VARIA-89"
       }
     ],
-    "fps": 12,
-    "loop": true,
-    "role": null
+    "fps": 30,
+    "loop": false,
+    "role": "LOADING_VARIA",
+    "flipX": false
   },
   {
-    "id": "anim-1769256941907",
-    "name": "facing left space jump",
+    "id": "role-LIFT_OFF",
+    "name": "LIFT OFF",
     "frames": [
       {
-        "row": 8,
-        "col": 18,
-        "id": "8-18-1769256965773"
-      },
-      {
-        "row": 9,
-        "col": 19,
-        "id": "9-19-1769256974582"
-      },
-      {
-        "row": 9,
-        "col": 20,
-        "id": "9-20-1769256978250"
-      },
-      {
-        "row": 9,
-        "col": 21,
-        "id": "9-21-1769256981667"
-      },
-      {
-        "row": 9,
-        "col": 22,
-        "id": "9-22-1769256984572"
-      },
-      {
-        "row": 9,
-        "col": 23,
-        "id": "9-23-1769256987329"
-      },
-      {
-        "row": 9,
-        "col": 24,
-        "id": "9-24-1769256991333"
-      },
-      {
-        "row": 9,
-        "col": 25,
-        "id": "9-25-1769256993849"
-      },
-      {
-        "row": 9,
-        "col": 26,
-        "id": "9-26-1769256996639"
+        "row": 0,
+        "col": 17,
+        "id": "f-LIFT_OFF-0"
       }
     ],
-    "fps": 12,
-    "loop": true,
-    "role": null
+    "fps": 1,
+    "loop": false,
+    "role": "LIFT_OFF",
+    "flipX": false
   }
 ]
